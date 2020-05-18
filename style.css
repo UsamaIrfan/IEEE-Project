@@ -342,8 +342,8 @@ header .nav__main__item.dropdowns:hover .submenu__arrow i {
     list-style: none;
 }
 
-.sponsors .logo li {
-    max-width: 200px;
+.sponsors .logos li img {
+    max-width: 300px;
 }
 
 .brands .logos ul li a img {
@@ -356,7 +356,7 @@ header .nav__main__item.dropdowns:hover .submenu__arrow i {
     max-width: 230px;
 }
 
-.brands .logos ul li a img:hover, .brands .logos ul li a img:active {
+.brands .logos ul li a img:hover, .brands .logos ul li a img:active, .sponsors .logos li img:hover, .sponsors .logos li img:active {
     opacity: 0.7;
 }
 
