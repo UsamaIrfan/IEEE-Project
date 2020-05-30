@@ -207,6 +207,16 @@ header .nav__main__item a:hover {
     padding-left: 10px;
 }
 
+.nav__mobile__main__item.sub-item a{
+    max-height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.nav__mobile__main__item.sub-item.open {
+    max-height: 1000;
+}
+
 /* Submenu Styles */
 
 header .nav__main__item .submenu {
@@ -430,7 +440,7 @@ footer ul li a {
     text-decoration: none;
 }
 
-footer ul li:hover, footer ul li:active {
+footer ul li:hover, footer ul li:active, footer ul li:focus-within {
     transform: scale(1.2)
 }
 
